@@ -1,0 +1,23 @@
+{
+  "name": "vite-plugin-svg-to-font",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "font-carrier": "^0.3.1",
+    "pinyin": "^3.0.0-alpha.5",
+    "svg_pathify": "^0.0.8",
+    "xmldom": "^0.6.0"
+  },
+  "homepage": "https://github.com/wukuy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wukuy/vite-plugin-svg-to-font"
+  }
+}
