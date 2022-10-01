@@ -6,10 +6,6 @@ import svgToFont from 'vite-plugin-svg-to-font'
 export default defineConfig({
     plugins: [
         vue(),
-        svgToFont({
-            dirs: [
-                'src/assets/svg'
-            ]
-        })
+        svgToFont()
     ]
 })
