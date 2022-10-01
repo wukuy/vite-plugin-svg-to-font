@@ -7,7 +7,7 @@
 │   ├── App.vue
 │   ├── assets
 │   │   └── icon
-│   │       └── vue.svg
+│   │       └── vite.svg
 ```
 
 生成后
@@ -26,7 +26,7 @@
 │   │   │       ├── iconfont.ttf
 │   │   │       ├── iconfont.woff
 │   │   │       └── iconfont.woff2
-│   │   └── vue.svg
+│   │   └── vite.svg
 ```
 
 ## 安装
@@ -48,7 +48,17 @@ export default defineConfig({
 ```
 
 ## 使用
+`main.js`
+```javascript
+import './assets/icon/font/iconfont.css';
+```
 
+`App.vue`
+```html
+<template>
+    <span class="iconfont icon-vite"></span>
+</template>
+```
 
 ## 设置SVG存放目录
 默认目录`src/assets/icon`
@@ -56,13 +66,6 @@ export default defineConfig({
 ```bash
 svgToFont({
     dirs: [ 'src/assets/svg']
-})
-```
-
-## 设置图标前缀
-```bash
-svgToFont({
-    fontClass: 'icon-'
 })
 ```
 
